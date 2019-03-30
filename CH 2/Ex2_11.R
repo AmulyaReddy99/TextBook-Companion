@@ -1,5 +1,7 @@
 # page number: 59
 
+# install_packages(pracma)
+
 library(pracma)
 
 f <- function(x,y){

@@ -1,5 +1,7 @@
 # page number: 18
 
+# install.packages(MASS)
+
 library(MASS)
 sample_sapce<-seq(6)
 event<-seq(2,6,2)

@@ -1,5 +1,7 @@
 # page number: 226
 
+# install_packages(MASS)
+
 library(MASS)
 u <- c(1/8,3/8,3/8,1/8)
 

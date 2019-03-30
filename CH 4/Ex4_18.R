@@ -1,5 +1,7 @@
 # page number: 162
 
+# install_packages(MASS)
+
 library(MASS)
 E <- c(0, 1/2)
 F <- c(1/6, 1/3)

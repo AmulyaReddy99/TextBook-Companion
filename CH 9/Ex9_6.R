@@ -1,5 +1,7 @@
 # page number: 343
 
+# install_packages(MASS)
+
 library(MASS)
 distribution <- c(1/100,1/80,1/60,1/40,1/20,463/600,1/20,1/40,1/60,1/80,1/100)
 

@@ -1,5 +1,7 @@
 # page number: 317
 
+#install_packages(MASS)
+
 library(MASS)
 
 x <- function(x){x}

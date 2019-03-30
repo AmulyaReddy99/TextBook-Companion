@@ -1,5 +1,7 @@
 # page number: 107
 
+# install_packages(MASS)
+
 library(MASS)
 u <- c("hh", "ht","th","tt")
 

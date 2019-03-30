@@ -1,5 +1,7 @@
 # page number: 144
 
+# install_packages(MASS)
+
 library(MASS)
 
 mi <- 1/6

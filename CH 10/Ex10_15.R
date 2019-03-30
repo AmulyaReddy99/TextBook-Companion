@@ -1,5 +1,7 @@
 # page number: 395
 
+#install_packages(MASS)
+
 library(MASS)
 
 g <- expression((exp(t)-1)/t)

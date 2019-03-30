@@ -1,5 +1,7 @@
 # page number: 234
 
+# install_packages(MASS)
+
 library(MASS)
 
 E1 = E2 = 1/2

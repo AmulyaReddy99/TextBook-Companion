@@ -1,5 +1,7 @@
 # page number: 59
 
+# install_packages(MASS)
+
 library(MASS)
 
 p <- function(lower,upper){

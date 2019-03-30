@@ -1,5 +1,7 @@
 # page number: 286
 
+# install_packages(MASS)
+
 library(MASS)
 P <- function(n){
   m <- 1/6

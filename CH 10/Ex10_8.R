@@ -1,5 +1,7 @@
 # page number: 380
 
+# install.packages(MASS)
+
 library(MASS)
 
 p0 <- 1/2

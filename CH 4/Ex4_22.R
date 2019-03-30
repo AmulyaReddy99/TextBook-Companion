@@ -1,5 +1,7 @@
 # page number: 166
 
+# install_packages(MASS)
+
 library(MASS)
 
 fz <- function(z) {

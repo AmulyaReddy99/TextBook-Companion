@@ -1,5 +1,7 @@
 # page number: 257
 
+# install_packages(MASS)
+
 library(MASS)
 u <- seq(6)
 

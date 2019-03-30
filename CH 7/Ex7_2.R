@@ -1,6 +1,5 @@
 # page number: 287
 
-# do later
 cards <- c("ace","king","queen","jack")
 values <- c(4,3,2,1)
 
@@ -9,6 +8,10 @@ total_cards <- sum(u)
 px <- u/total_cards
 
 n <- 13
+val <- 0
 for(i in seq(4)){
   val = val+values[i]
 }
+
+ans = 2*val/52
+print(ans - 0.1)

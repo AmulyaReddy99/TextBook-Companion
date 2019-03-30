@@ -1,6 +1,5 @@
 # page number: 356
 
-# do later
 x <- seq(-4, 4, length=100)
 y <- dnorm(x)
 

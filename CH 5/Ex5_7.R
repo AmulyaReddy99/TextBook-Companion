@@ -1,6 +1,5 @@
 # page number: 208
 
-#do again
 f <- function(l,j){
   return(1-(exp(-l*j)))
 }

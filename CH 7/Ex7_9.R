@@ -1,5 +1,8 @@
 # page number: 299
 
+#install_package(ggplot2)
+#install_package(reshape2)
+
 library(ggplot2)
 library(reshape2)
 

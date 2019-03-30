@@ -1,5 +1,7 @@
 # page number: 406
 
+# install.packages(MASS)
+
 library(MASS)
 
 X <- c("R", "N", "S")

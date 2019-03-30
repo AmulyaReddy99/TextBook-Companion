@@ -1,5 +1,7 @@
 # page number: 26
 
+# install.packages(MASS)
+
 library(MASS)
 m=1/36
 sum<-c(7,11)
