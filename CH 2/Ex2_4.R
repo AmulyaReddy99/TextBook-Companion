@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # page numbebarplot(H)r: 46
+=======
+# page number: 46
+>>>>>>> a7d7a0b7053619fc7a6f0e4f82d6ef3714060177
 
 f<-function(x){
   if(x>=0 && x<=1) {
