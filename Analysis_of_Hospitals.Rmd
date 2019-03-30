@@ -1,0 +1,26 @@
+---
+title: "Analysis_of_Hospitals"
+author: "Amulya Reddy"
+date: "3/30/2019"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r}
+a=3;b=6
+print(a+b)
+```
+
+```{r}
+library(datasets)
+data(airquality)
+summary(airquality)
+#data <- read.csv("Hospitals.csv")
+#View(data)
+```
+
+```{r}
+data <- read.csv("Hospitals.csv")
+View(data)
+```
