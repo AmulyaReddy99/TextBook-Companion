@@ -1,7 +1,7 @@
 # page number: 409
 
-yes <- c('1-a', 'a')
-no <- c('b', '1-b')
+yes <- c('1-a', 'b')
+no <- c('a', '1-b')
 
 p <- data.frame(yes,no)
 
