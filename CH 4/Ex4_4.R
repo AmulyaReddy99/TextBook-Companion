@@ -6,4 +6,6 @@ P_FIE <- function(){
   return(P_F_E/P_E)
 }
 
-cat("Probability of X=6 is",P_FIE())
+n <- 6
+
+cat("Probability of X =",n," is",P_FIE(),end='\n')

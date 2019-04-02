@@ -2,7 +2,8 @@
 
 f <- expression(1/(1-x))
 fd <- D(f,'x')
-cat("Derivative of 1/(1-x) is ")
+cat("Derivative of ")
+print(f)
 print(fd)
 E <- function(p){
   return(1/p)

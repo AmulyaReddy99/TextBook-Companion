@@ -12,4 +12,5 @@ ex <- function(n){
   return(sum)
 }
 
-cat("Derivation of formula: P(F|E)=e^(−λs)")
+formula = "e^(−λs))"
+cat("Derivation of formula: P(F|E)=",formula,end='\n')
