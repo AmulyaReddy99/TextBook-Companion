@@ -1,0 +1,23 @@
+---
+title: "Analysis_of_Agriculture"
+author: "Amulya Reddy"
+date: "4/1/2019"
+output: html_document
+---
+
+```{r}
+agriculture_data <- read.csv("Agriculture.csv")
+View(agriculture_data)
+```
+
+```{r}
+gross <- agriculture_data$Gross.Cropped.Area
+net <- agriculture_data$Net.Cropped.Area
+gross_irr <- agriculture_data$Gross.Irrigated.Area
+net_irr <- agriculture_data$Net.Irrigated.Area
+agri <- c(gross, net, gross_irr, net_irr)
+```
+
+```{r}
+pie(agri,labels = c("gross","net", "gross irrigation", "net irrigation"))
+```
