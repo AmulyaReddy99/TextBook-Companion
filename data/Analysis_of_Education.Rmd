@@ -1,0 +1,22 @@
+---
+title: "Analysis_of_Education"
+author: "Amulya Reddy"
+date: "4/1/2019"
+output: html_document
+---
+
+```{r}
+education_data <- read.csv("Education.csv")
+View(education_data)
+```
+
+```{r}
+no_of_men = sum(education_data$male)
+no_of_women = sum(education_data$female)
+no_of_transgender = sum(education_data$transgender)
+```
+
+```{r}
+count = c(no_of_men,no_of_women,no_of_transgender)
+pie(count,labels = c("men","women","transgender"))
+```
