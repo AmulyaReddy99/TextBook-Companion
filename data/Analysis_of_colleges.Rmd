@@ -1,0 +1,20 @@
+---
+title: "Analysis_of_Colleges"
+author: "Amulya Reddy"
+date: "4/1/2019"
+output: html_document
+---
+
+```{r}
+colleges_data <- read.csv("colleges.csv")
+View(colleges_data)
+```
+
+```{r}
+year_cols = 1992-2013
+c_data = data.frame(colleges_data)
+```
+
+```{r}
+hist(c_data$Year.of,main="No of colleges started yearly",col="grey")
+```
