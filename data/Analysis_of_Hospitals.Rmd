@@ -1,0 +1,18 @@
+---
+title: "Analysis_of_Hospitals"
+author: "Amulya Reddy"
+date: "3/30/2019"
+output:
+  html_document:
+    df_print: paged
+---
+
+This information contains Hospital data
+```{r}
+hospital_data <- read.csv("Hospitals.csv")
+View(hospital_data)
+```
+
+```{r}
+barplot(hospital_data$X105,xlab="Centers")
+```
