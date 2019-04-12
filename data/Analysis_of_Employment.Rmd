@@ -1,0 +1,18 @@
+---
+title: "Analysis_of_Employment"
+author: "Amulya Reddy"
+date: "4/1/2019"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r}
+employment_data <- read.csv("Employment.csv")
+View(employment_data)
+```
+
+```{r}
+year_cols = 2001-2010
+e_data = data.frame(employment_data)
+```
