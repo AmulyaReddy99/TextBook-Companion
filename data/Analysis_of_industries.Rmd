@@ -1,0 +1,21 @@
+---
+title: "Analysis_of_industries"
+author: "Amulya Reddy"
+date: "4/1/2019"
+output: html_document
+---
+
+```{r}
+industries_data <- read.csv("Industries.csv")
+View(industries_data)
+```
+
+```{r}
+no_of_men = sum(industries_data$Men)
+no_of_women = sum(industries_data$Women)
+```
+
+```{r}
+count = c(no_of_women,no_of_men)
+pie(count,labels = c("women","men"))
+```
