@@ -1,0 +1,29 @@
+---
+title: "Analysis_of_tourism"
+author: "Amulya Reddy"
+date: "4/1/2019"
+output: html_document
+---
+
+```{r}
+tourism_data <- read.csv("Tourism.csv")
+View(tourism_data)
+```
+
+```{r}
+tot_artists = sum(tourism_data$TSS.Artists)
+tot_spots = sum(tourism_data$Tourist.Spots)
+```
+
+Below is the comparision of artists in entire telangana state to medchal district
+
+```{r}
+pie(c(tot_artists,tourism_data$TSS.Artists[16]),labels=c("state","medchal"))
+```
+
+Below is the comparision of tourist spots in entire telangana state to medchal district
+
+```{r}
+x <- c(tot_spots,tourism_data$Tourist.Spots[16])
+pie(x,labels=c("state","medchal"))
+```
