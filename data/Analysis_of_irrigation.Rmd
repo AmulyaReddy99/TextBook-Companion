@@ -1,0 +1,62 @@
+---
+title: "Analysis_of_irrigation"
+author: "Amulya Reddy"
+date: "4/1/2019"
+output: html_document
+---
+
+```{r}
+irrigation_data <- read.csv("Irrigation.csv")
+View(irrigation_data)
+```
+
+```{r}
+year_cols = 2016-2004
+i_data = data.frame(irrigation_data)
+```
+
+```{r}
+June <- list()
+July <- list()
+Aug <- list()
+Sept <- list()
+Total <- list()
+
+for(i in seq(1, floor(length(i_data$Year))-2, year_cols)){
+  June = c(June,sum(i_data$June[i:i+year_cols]))
+}
+for(i in seq(1, floor(length(i_data$Year))-2, year_cols)){
+  July = c(July,sum(i_data$July[i:i+year_cols]))
+}
+for(i in seq(1, floor(length(i_data$Year))-2, year_cols)){
+  Aug = c(Aug,sum(i_data$Aug[i:i+year_cols]))
+}
+for(i in seq(1, floor(length(i_data$Year))-2, year_cols)){
+  Sept = c(Sept,sum(i_data$Sept[i:i+year_cols]))
+}
+for(i in seq(1, floor(length(i_data$Year))-2, year_cols)){
+  Total = c(Total,sum(i_data$Total[i:i+year_cols]))
+}
+```
+
+```{r}
+barplot(unlist(June),xlab="2004-2016",main="Irrigation in June 2004-2016")
+```
+
+```{r}
+barplot(unlist(July),xlab="2004-2016",main="Irrigation in July 2004-2016")
+```
+
+```{r}
+barplot(unlist(Aug),xlab="2004-2016",main="Irrigation in Aug 2004-2016")
+```
+
+```{r}
+barplot(unlist(Sept),xlab="2004-2016",main="Irrigation in Sept 2004-2016")
+```
+
+```{r}
+barplot(unlist(Total),xlab="2004-2016",main="Irrigation in entire year comparision 2004-2016")
+```
+
+
